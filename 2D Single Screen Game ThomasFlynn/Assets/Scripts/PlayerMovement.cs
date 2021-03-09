@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 20f;
     public Transform feet;
     public LayerMask groundLayers;
+    public Animator anim;
 
     float mx;
 
@@ -19,6 +20,17 @@ public class PlayerMovement : MonoBehaviour
         {
             Jump();
         }
+
+        if (Mathf.Abs(mx) > 0.05f)
+        {
+            anim.SetBool("isRunning", true);
+        } 
+        else
+        {
+            anim.SetBool("isRunning", false);
+        }
+
+        anim.SetBool("isGrounded", isGrounded());
     }
 
     private void FixedUpdate()
