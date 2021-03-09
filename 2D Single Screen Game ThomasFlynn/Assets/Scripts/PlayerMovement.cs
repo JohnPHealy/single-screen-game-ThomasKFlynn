@@ -30,6 +30,15 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("isRunning", false);
         }
 
+        if (mx > 0f)
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+        }
+        else if (mx < 0f)
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
+
         anim.SetBool("isGrounded", isGrounded());
     }
 
