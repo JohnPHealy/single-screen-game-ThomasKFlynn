@@ -15,7 +15,7 @@ TagManager:
   - 
   - 
   - Ground
-  - 
+  - Collidable Objects
   - 
   - 
   - 
@@ -39,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background01
+    uniqueID: 1597696323
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
