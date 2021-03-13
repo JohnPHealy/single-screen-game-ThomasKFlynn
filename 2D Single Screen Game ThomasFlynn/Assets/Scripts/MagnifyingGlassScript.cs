@@ -7,13 +7,13 @@ public class MagnifyingGlassScript : MonoBehaviour
     private GameObject magnifyBorders;
     private LineRenderer LeftBorder, RightBorder, TopBorder, BottomBorder; // Reference for lines of magnify glass borders
     private float MGOX, MG0Y; // Magnify Glass Origin X and Y position
-    private float MGWidth = Screen.width / 5f, MGHeight = Screen.width / 5f; // Magnify glass width and height
+    private float MGWidth = Screen.width / 6f, MGHeight = Screen.width / 6f; // Magnify glass width and height
     private Vector3 mousePos;
 
     public float hSliderValueR = 0.0F;
     public float hSliderValueG = 0.0F;
     public float hSliderValueB = 0.0F;
-    public float hSliderValueA = 1.0F;
+    public float hSliderValueA = 0.0F;
 
     void Start()
     {
@@ -33,16 +33,16 @@ public class MagnifyingGlassScript : MonoBehaviour
     private void createMagnifyGlass()
     {
         GameObject camera = new GameObject("MagnifyCamera");
-        MGOX = Screen.width / 2f - MGWidth / 2f;
-        MG0Y = Screen.height / 2f - MGHeight / 2f;
+        MGOX = Screen.width / 2f - MGWidth / 10f;
+        MG0Y = Screen.height / 2f - MGHeight / 10f;
         magnifyCamera = camera.AddComponent<Camera>();
         magnifyCamera.pixelRect = new Rect(MGOX, MG0Y, MGWidth, MGHeight);
         magnifyCamera.transform.position = new Vector3(0, 0, 0);
         if (Camera.main.orthographic)
         {
             magnifyCamera.orthographic = true;
-            magnifyCamera.orthographicSize = Camera.main.orthographicSize / 5.0f;//+ 1.0f;
-            createBordersForMagnifyGlass();
+            magnifyCamera.orthographicSize = Camera.main.orthographicSize / 15.0f;//+ 1.0f;
+            
         }
         else
         {
@@ -53,50 +53,7 @@ public class MagnifyingGlassScript : MonoBehaviour
     }
 
     // Following method sets border of MagnifyGlass
-    private void createBordersForMagnifyGlass()
-    {
-        magnifyBorders = new GameObject();
-        LeftBorder = getLine();
-        LeftBorder.positionCount = 2;
-        LeftBorder.SetPosition(0, new Vector3(getWorldPosition(new Vector3(MGOX, MG0Y, 0)).x, getWorldPosition(new Vector3(MGOX, MG0Y, 0)).y - 0.1f, -1));
-        LeftBorder.SetPosition(1, new Vector3(getWorldPosition(new Vector3(MGOX, MG0Y + MGHeight, 0)).x, getWorldPosition(new Vector3(MGOX, MG0Y + MGHeight, 0)).y + 0.1f, -1));
-        LeftBorder.transform.parent = magnifyBorders.transform;
-        TopBorder = getLine();
-        TopBorder.positionCount = 2;
-        TopBorder.SetPosition(0, new Vector3(getWorldPosition(new Vector3(MGOX, MG0Y + MGHeight, 0)).x, getWorldPosition(new Vector3(MGOX, MG0Y + MGHeight, 0)).y, -1));
-        TopBorder.SetPosition(1, new Vector3(getWorldPosition(new Vector3(MGOX + MGWidth, MG0Y + MGHeight, 0)).x, getWorldPosition(new Vector3(MGOX + MGWidth, MG0Y + MGHeight, 0)).y, -1));
-        TopBorder.transform.parent = magnifyBorders.transform;
-        RightBorder = getLine();
-        RightBorder.positionCount = 2;
-        RightBorder.SetPosition(0, new Vector3(getWorldPosition(new Vector3(MGOX + MGWidth, MG0Y + MGWidth, 0)).x, getWorldPosition(new Vector3(MGOX + MGWidth, MG0Y + MGWidth, 0)).y + 0.1f, -1));
-        RightBorder.SetPosition(1, new Vector3(getWorldPosition(new Vector3(MGOX + MGWidth, MG0Y, 0)).x, getWorldPosition(new Vector3(MGOX + MGWidth, MG0Y, 0)).y - 0.1f, -1));
-        RightBorder.transform.parent = magnifyBorders.transform;
-        BottomBorder = getLine();
-        BottomBorder.positionCount = 2;
-        BottomBorder.SetPosition(0, new Vector3(getWorldPosition(new Vector3(MGOX + MGWidth, MG0Y, 0)).x, getWorldPosition(new Vector3(MGOX + MGWidth, MG0Y, 0)).y, -1));
-        BottomBorder.SetPosition(1, new Vector3(getWorldPosition(new Vector3(MGOX, MG0Y, 0)).x, getWorldPosition(new Vector3(MGOX, MG0Y, 0)).y, -1));
-        BottomBorder.transform.parent = magnifyBorders.transform;
-    }
 
-    // Following method creates new line for MagnifyGlass's border
-    private LineRenderer getLine()
-    {
-        LineRenderer line = new GameObject("Line").AddComponent<LineRenderer>();
-        line.material = new Material(Shader.Find("Diffuse"));
-        line.positionCount = 2; ;
-        line.startWidth = 0.2f;
-        line.startColor = new Color(hSliderValueR, hSliderValueG, hSliderValueB, hSliderValueA);
-        line.useWorldSpace = false;
-        return line;
-    }
-    private void setLine(LineRenderer line)
-    {
-        line.material = new Material(Shader.Find("Diffuse"));
-        line.positionCount = 2;
-        line.startWidth = 0.2f;
-        line.startColor = new Color(hSliderValueR, hSliderValueG, hSliderValueB, hSliderValueA);
-        line.useWorldSpace = false;
-    }
 
     // Following method calculates world's point from screen point as per camera's projection type
     public Vector3 getWorldPosition(Vector3 screenPos)
