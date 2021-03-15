@@ -7,7 +7,7 @@ TextureImporter:
     second: KeyIcons_0
   - first:
       213: 4841405974987780406
-    second: KeyIcons_1
+    second: Key
   - first:
       213: -1611936281182024222
     second: KeyIcons_2
@@ -200,7 +200,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KeyIcons_1
+      name: Key
       rect:
         serializedVersion: 2
         x: 33

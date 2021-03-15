@@ -12,7 +12,7 @@ public class Key : MonoBehaviour
         Red,
         Green,
         Blue,
-        Gold
+        Yellow
     }
         
     public KeyType GetKeyType()
