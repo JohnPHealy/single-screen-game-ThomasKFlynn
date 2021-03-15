@@ -7,13 +7,9 @@ public class MagnifyingGlassScript : MonoBehaviour
     private GameObject magnifyBorders;
     private LineRenderer LeftBorder, RightBorder, TopBorder, BottomBorder; // Reference for lines of magnify glass borders
     private float MGOX, MG0Y; // Magnify Glass Origin X and Y position
-    private float MGWidth = Screen.width / 6f, MGHeight = Screen.width / 6f; // Magnify glass width and height
+    private float MGWidth = Screen.width / 10f, MGHeight = Screen.width / 10f; // Magnify glass width and height
     private Vector3 mousePos;
 
-    public float hSliderValueR = 0.0F;
-    public float hSliderValueG = 0.0F;
-    public float hSliderValueB = 0.0F;
-    public float hSliderValueA = 0.0F;
 
     void Start()
     {
