@@ -4,7 +4,6 @@ using System.Collections;
 public class MagnifyingGlassScript : MonoBehaviour
 {
     private Camera magnifyCamera;
-    private GameObject magnifyBorders;
     private LineRenderer LeftBorder, RightBorder, TopBorder, BottomBorder; // Reference for lines of magnify glass borders
     private float MGOX, MG0Y; // Magnify Glass Origin X and Y position
     private float MGWidth = Screen.width / 4f, MGHeight = Screen.width / 4f; // Magnify glass width and height
@@ -27,7 +26,6 @@ public class MagnifyingGlassScript : MonoBehaviour
         mousePos = getWorldPosition(Input.mousePosition);
         magnifyCamera.transform.position = mousePos;
         mousePos.z = Camera.main.nearClipPlane;
-        magnifyBorders.transform.position = mousePos;
     }
 
     // Following method creates MagnifyGlass
