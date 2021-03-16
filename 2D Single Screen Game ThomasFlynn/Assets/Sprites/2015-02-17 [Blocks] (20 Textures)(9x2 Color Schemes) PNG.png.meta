@@ -1,0 +1,1044 @@
+fileFormatVersion: 2
+guid: 19c4a9e489652144381acd05aa974802
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4895891492699901530
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_0
+  - first:
+      213: 2782451393035189128
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_1
+  - first:
+      213: -8432206278380176878
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_2
+  - first:
+      213: -3407513594853103334
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_3
+  - first:
+      213: 7929813509175844681
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_4
+  - first:
+      213: 7727038744254231124
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_5
+  - first:
+      213: 765437017887732186
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_6
+  - first:
+      213: 8806471665354339848
+    second: TempleBG_01
+  - first:
+      213: 3850123839388304738
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_8
+  - first:
+      213: 6706222174307934733
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_9
+  - first:
+      213: -8320761911237745896
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_10
+  - first:
+      213: -6899044957200439333
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_11
+  - first:
+      213: 6174183401953134254
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_12
+  - first:
+      213: -2894462625842235530
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_13
+  - first:
+      213: -5429448260059393679
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_14
+  - first:
+      213: -1602414105111979946
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_15
+  - first:
+      213: 4178483998564996192
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_16
+  - first:
+      213: 2038206560431053438
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_17
+  - first:
+      213: 5267091687657484017
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_18
+  - first:
+      213: 859853676090906344
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_19
+  - first:
+      213: -4891972692756132013
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_20
+  - first:
+      213: -8373167046679656392
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_21
+  - first:
+      213: 7781353472041151602
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_22
+  - first:
+      213: 1401401768336521584
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_23
+  - first:
+      213: 4027332876335582476
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_24
+  - first:
+      213: -1423210188368325975
+    second: TempleBG_02
+  - first:
+      213: -2034579391462953376
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_26
+  - first:
+      213: -1841854529787753212
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_27
+  - first:
+      213: -1217597909784345306
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_28
+  - first:
+      213: -4025742913728670563
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_29
+  - first:
+      213: 2866549519047539858
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_30
+  - first:
+      213: 6940073408373867545
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_31
+  - first:
+      213: 5264793822215891159
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_32
+  - first:
+      213: -3913411418694395622
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_33
+  - first:
+      213: -8272845006689373596
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_34
+  - first:
+      213: -5867954220831783305
+    second: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e0c318f53b1f340800000000000000
+      internalID: 4895891492699901530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b37a6ccc04d9620800000000000000
+      internalID: 2782451393035189128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ab458c019cafa80800000000000000
+      internalID: -8432206278380176878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a196773707416b0d0800000000000000
+      internalID: -3407513594853103334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f15856f5b5c0e60800000000000000
+      internalID: 7929813509175844681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_5
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45234fc5cc4fb3b60800000000000000
+      internalID: 7727038744254231124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1f12d89e06f9a00800000000000000
+      internalID: 765437017887732186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempleBG_01
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806fcf9225fd63a70800000000000000
+      internalID: 8806471665354339848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_8
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265c00cab336e6530800000000000000
+      internalID: 3850123839388304738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02e8745989411d50800000000000000
+      internalID: 6706222174307934733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813e2148027b68c80800000000000000
+      internalID: -8320761911237745896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_11
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd72e940a2ba140a0800000000000000
+      internalID: -6899044957200439333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 80
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea68783871b1fa550800000000000000
+      internalID: 6174183401953134254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677770bc39dc4d7d0800000000000000
+      internalID: -2894462625842235530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 80
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1711ccce299b6a4b0800000000000000
+      internalID: -5429448260059393679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_15
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 80
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65899b18cd413c9e0800000000000000
+      internalID: -1602414105111979946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064de12ee05fcf930800000000000000
+      internalID: 4178483998564996192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_17
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 80
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a1d5d511a294c10800000000000000
+      internalID: 2038206560431053438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1feac32dbf7781940800000000000000
+      internalID: 5267091687657484017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6563adc50deeb00800000000000000
+      internalID: 859853676090906344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f0c5531c83c1cb0800000000000000
+      internalID: -4891972692756132013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_21
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83807a91fe88ccb80800000000000000
+      internalID: -8373167046679656392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_22
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ce3c461cbecfb60800000000000000
+      internalID: 7781353472041151602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0797d4dbb77c27310800000000000000
+      internalID: 1401401768336521584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d0c3ec9e5f3e730800000000000000
+      internalID: 4027332876335582476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempleBG_02
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2d699cfddbf3ce0800000000000000
+      internalID: -1423210188368325975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e2588b2d8b3c3e0800000000000000
+      internalID: -2034579391462953376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_27
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d8e00501b6076e0800000000000000
+      internalID: -1841854529787753212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_28
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625cb04f6293a1fe0800000000000000
+      internalID: -1217597909784345306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_29
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9418263620b128c0800000000000000
+      internalID: -4025742913728670563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c35e5999708c720800000000000000
+      internalID: 2866549519047539858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914424daef7105060800000000000000
+      internalID: 6940073408373867545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d869d4561e401940800000000000000
+      internalID: 5264793822215891159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_33
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1953c08c05c0b9c0800000000000000
+      internalID: -3913411418694395622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_34
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4627a6e3c43f03d80800000000000000
+      internalID: -8272845006689373596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2015-02-17 [Blocks] (20 Textures)(9x2 Color Schemes) PNG_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7764115d9b6d09ea0800000000000000
+      internalID: -5867954220831783305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
