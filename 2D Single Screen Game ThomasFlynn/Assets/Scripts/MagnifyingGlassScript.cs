@@ -7,12 +7,17 @@ public class MagnifyingGlassScript : MonoBehaviour
     private GameObject magnifyBorders;
     private LineRenderer LeftBorder, RightBorder, TopBorder, BottomBorder; // Reference for lines of magnify glass borders
     private float MGOX, MG0Y; // Magnify Glass Origin X and Y position
-    private float MGWidth = Screen.width / 10f, MGHeight = Screen.width / 10f; // Magnify glass width and height
+    private float MGWidth = Screen.width / 4f, MGHeight = Screen.width / 4f; // Magnify glass width and height
     private Vector3 mousePos;
 
+    public float hSliderValueR = 0.0F;
+    public float hSliderValueG = 0.0F;
+    public float hSliderValueB = 0.0F;
+    public float hSliderValueA = 0.0F;
 
     void Start()
     {
+        Cursor.visible = false;
         createMagnifyGlass();
     }
     void Update()
@@ -37,7 +42,7 @@ public class MagnifyingGlassScript : MonoBehaviour
         if (Camera.main.orthographic)
         {
             magnifyCamera.orthographic = true;
-            magnifyCamera.orthographicSize = Camera.main.orthographicSize / 15.0f;//+ 1.0f;
+            magnifyCamera.orthographicSize = Camera.main.orthographicSize / 5.0f;//+ 1.0f;
             
         }
         else
