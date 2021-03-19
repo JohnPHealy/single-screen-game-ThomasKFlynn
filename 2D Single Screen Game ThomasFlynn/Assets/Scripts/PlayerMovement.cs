@@ -51,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump()
     {
+        SoundManagerScript.PlaySound("playerJump");
         Vector2 movement = new Vector2(rb.velocity.x, jumpForce);
         rb.velocity = movement;
     }

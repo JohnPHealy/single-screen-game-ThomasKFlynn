@@ -30,6 +30,7 @@ public class Teleportation : MonoBehaviour
 
     IEnumerator Teleport()
     {
+        SoundManagerScript.PlaySound("teleport");
         yield return new WaitForSeconds(1);
         Player.transform.position = new Vector2(Portal.transform.position.x, Portal.transform.position.y);
     }

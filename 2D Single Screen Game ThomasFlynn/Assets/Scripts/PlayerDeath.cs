@@ -8,6 +8,7 @@ public class PlayerDeath : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            SoundManagerScript.PlaySound("playerDeath");
             Destroy(gameObject);
             LevelManagerScript.instance.Respawn();
         }
