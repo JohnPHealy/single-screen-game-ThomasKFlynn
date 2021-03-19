@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -15,8 +16,8 @@ TagManager:
   - 
   - 
   - Ground
-  - 
-  - 
+  - Collidable Objects
+  - CameraBounds
   - 
   - 
   - 
@@ -39,6 +40,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background01
+    uniqueID: 1597696323
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
