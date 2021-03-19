@@ -32,8 +32,8 @@ public class MagnifyingGlassScript : MonoBehaviour
     private void createMagnifyGlass()
     {
         GameObject camera = new GameObject("MagnifyCamera");
-        MGOX = Screen.width / 2f - MGWidth / 10f;
-        MG0Y = Screen.height / 2f - MGHeight / 10f;
+        MGOX = Screen.width / 2f - MGWidth / 5f;
+        MG0Y = Screen.height / 2f - MGHeight / 5f;
         magnifyCamera = camera.AddComponent<Camera>();
         magnifyCamera.pixelRect = new Rect(MGOX, MG0Y, MGWidth, MGHeight);
         magnifyCamera.transform.position = new Vector3(0, 0, 0);
